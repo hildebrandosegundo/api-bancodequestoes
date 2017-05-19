@@ -26,4 +26,5 @@ Route::group(['middleware'=>[\Barryvdh\Cors\HandleCors::class]], function () {
     Route::resource('/enunciados', 'Api\Qenunciados');
     Route::resource('/provas', 'Api\Provas');
     Route::resource('/questoes', 'Api\Questoes');
+    Route::resource('/pquestoes', 'Api\Pquestoes');
 });
