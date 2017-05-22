@@ -19,11 +19,11 @@ class CreateAlternativas extends Migration
             $table->string('descricao');
             $table->binary('imagem');
             $table->boolean('correta');
-            $table->integer('idqenunciado');
-            $table->integer('idserie');
-            $table->integer('idarea');
-            $table->integer('idcategoria');
-            $table->integer('idhabilidade');
+            $table->integer('enunciado_id');
+            $table->integer('serie_id');
+            $table->integer('area_id');
+            $table->integer('categoria_id');
+            $table->integer('habilidade_id');
             $table->timestamps();
         });
     }

@@ -17,11 +17,11 @@ class CreateQenunciado extends Migration
             $table->increments('id');
             $table->string('enunciado');
             $table->binary('imagem')->nullable();
-            $table->integer('idserie');
-            $table->integer('idarea');
-            $table->integer('nivel');
-            $table->integer('idcategoria');
-            $table->integer('idhabilidade');
+            $table->integer('serie_id');
+            $table->integer('area_id');
+            $table->integer('nivel_id');
+            $table->integer('categoria_id');
+            $table->integer('habilidade_id');
             $table->timestamps();
         });
     }

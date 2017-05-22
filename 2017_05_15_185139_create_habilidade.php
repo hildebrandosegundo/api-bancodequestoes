@@ -17,9 +17,9 @@ class CreateHabilidade extends Migration
             $table->increments('id');
             $table->string('habilidade',200);
             $table->string('codigo',5);
-            $table->integer('idcategoria');
-            $table->integer('idarea');
-            $table->integer('idserie');
+            $table->integer('categoria_id');
+            $table->integer('area_id');
+            $table->integer('serie_id');
             $table->timestamps();
         });
     }

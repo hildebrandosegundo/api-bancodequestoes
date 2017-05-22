@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Habilidade extends Model
 {
     protected $table = 'habilidades';
-    protected $fillable = ['habilidade','idcategoria', 'codigo','idserie', 'idarea'];
+    protected $fillable = ['habilidade','categoria_id', 'codigo','serie_id', 'area_id'];
     public function serie(){
         return $this->belongsTo('App\Serie');
     }

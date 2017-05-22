@@ -13,18 +13,25 @@ class CreateQuestoes extends Migration
      */
     public function up()
     {
-        Schema::create('questoes', function (Blueprint $table) {
+        Schema::create('pquestoes', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('idenunciado');
-            $table->integer('idqalternativa1');
-            $table->integer('idqalternativa2');
-            $table->integer('idqalternativa3');
-            $table->integer('idqalternativa4');
-            $table->integer('idserie');
-            $table->integer('idnivel');
-            $table->integer('idarea');
-            $table->integer('idcategoria');
-            $table->integer('idhabilidade');
+            $table->string('enunciado');
+            $table->binary('imagem')->nullable();
+            $table->string('alternativa1')->nullable();
+            $table->binary('imagemAl1')->nullable();
+            $table->string('alternativa2')->nullable();
+            $table->binary('imagemAl2')->nullable();
+            $table->string('alternativa3')->nullable();
+            $table->binary('imagemAl3')->nullable();
+            $table->string('alternativa4')->nullable();
+            $table->binary('imagemAl4')->nullable();
+            $table->string('alternativa5')->nullable();
+            $table->binary('imagemAl5')->nulllable();
+            $table->integer('serie_id');
+            $table->integer('nivel_id');
+            $table->integer('area_id');
+            $table->integer('categoria_id');
+            $table->integer('habilidade_id');
             $table->timestamps();
         });
     }
@@ -35,6 +42,6 @@ class CreateQuestoes extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('questoes');
+        Schema::dropIfExists('pquestoes');
     }
 }

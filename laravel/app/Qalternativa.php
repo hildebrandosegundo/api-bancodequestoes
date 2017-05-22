@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Qalternativa extends Model
 {
     protected $table = 'alternativas';
-    protected $fillable = ['alternativa', 'descricao', 'imagem', 'idqenunciado', 'idserie', 'idarea', 'idcategoria', 'idhabilidade', 'correta'];
+    protected $fillable = ['alternativa', 'descricao', 'imagem', 'enunciado_id', 'serie_id', 'area_id', 'categoria_id', 'habilidade_id', 'correta'];
     public function serie(){
         return $this->belongsTo('App\Serie');
     }

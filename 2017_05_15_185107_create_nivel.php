@@ -16,8 +16,8 @@ class CreateNivel extends Migration
         Schema::create('nivels', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('nivel');
-            $table->integer('idserie');
-            $table->integer('idarea');
+            $table->integer('serie_id');
+            $table->integer('area_id');
             $table->timestamps();
         });
     }

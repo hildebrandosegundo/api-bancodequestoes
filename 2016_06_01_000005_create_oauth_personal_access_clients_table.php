@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCategoria extends Migration
+class CreateOauthPersonalAccessClientsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateCategoria extends Migration
      */
     public function up()
     {
-        Schema::create('categorias', function (Blueprint $table) {
+        Schema::create('oauth_personal_access_clients', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('categoria',100);
-            $table->integer('area_id');
-            $table->integer('serie_id');
-            $table->integer('nivel_id');
+            $table->integer('client_id')->index();
             $table->timestamps();
         });
     }
@@ -30,6 +27,6 @@ class CreateCategoria extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categorias');
+        Schema::drop('oauth_personal_access_clients');
     }
 }

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Nivel extends Model
 {
     protected $table = 'nivels';
-    protected $fillable = ['idserie', 'idarea', 'nivel'];
+    protected $fillable = ['serie_id', 'area_id', 'nivel'];
 
     public function serie()
     {

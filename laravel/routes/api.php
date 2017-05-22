@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::group(['middleware'=>[\Barryvdh\Cors\HandleCors::class]], function () {
+Route::group(['middleware'=>[\Barryvdh\Cors\HandleCors::class, 'auth:api']], function () {
     Route::middleware('auth:api')->get('/user', function (Request $request) {
         return $request->user();
     });
