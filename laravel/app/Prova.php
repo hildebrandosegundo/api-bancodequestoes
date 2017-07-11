@@ -11,7 +11,7 @@ class Prova extends Model
                                                   'questao11_id', 'questao12_id','questao13_id','questao14_id','questao15_id','questao16_id','questao17_id','questa18_id','questao19_id', 'questao20_id',
                                                   'questao21_id', 'questao22_id','questao23_id','questao24_id','questao25_id','questao26_id','questao27_id','questa28_id','questao29_id', 'questao30_id',
                                                   'questao31_id', 'questao32_id','questao33_id','questao34_id','questao35_id','questao36_id','questao37_id','questa38_id','questao39_id', 'questao40_id',
-                                                  'questao41_id', 'questao42_id','questao43_id','questao44_id','questao45_id','questao46_id','questao47_id','questa48_id','questao49_id', 'questao50_id','ano', 'bimestre'];
+                                                  'questao41_id', 'questao42_id','questao43_id','questao44_id','questao45_id','questao46_id','questao47_id','questa48_id','questao49_id', 'questao50_id','ano', 'titulo', 'codigo'];
 
     public function questao1()
     {

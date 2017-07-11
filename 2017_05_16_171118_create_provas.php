@@ -15,7 +15,8 @@ class CreateProvas extends Migration
     {
         Schema::create('provas', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('bimestre');
+            $table->string('titulo');
+            $table->string('codigo', 20);
             $table->integer('ano');
             $table->integer('questao1_id');
             $table->integer('questao2_id');

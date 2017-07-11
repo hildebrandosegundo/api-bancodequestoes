@@ -32,6 +32,8 @@ class CreateQuestoes extends Migration
             $table->integer('area_id');
             $table->integer('categoria_id');
             $table->integer('habilidade_id');
+            $table->string('correta',1);
+            $table->string('codigo', 20);
             $table->timestamps();
         });
     }
