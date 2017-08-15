@@ -24,7 +24,6 @@ trait ApiControllerTrait
 
         $where = $request->all()['where'] ?? [];
         $like = $request->all()['like'] ?? null;
-        $likequestoes = $request->all()['likequestoes'] ?? null;
 
         if ($like) {
             $like = explode(',', $like);
@@ -34,30 +33,6 @@ trait ApiControllerTrait
             ->where(function ($query) use ($like) {
                 if ($like) {
                     return $query->where($like[0], 'like', $like[1]);
-                }
-                return $query;
-            })
-            ->where(function ($query) use ($likequestoes) {
-                if ($likequestoes) {
-                    return $query->whereExists(function ($query) use ($likequestoes) {
-                        $query->select($query->raw('*'))
-                            ->from('areas')
-                            ->orwhereRaw('pquestoes.area_id = areas.id')
-                            ->orwhere('areas.area', 'like', '%' . $likequestoes . '%')
-                            /*->from('categorias')
-                            ->orwhereRaw('pquestoes.categoria_id = categorias.id')
-                            ->orwhere('series.serie', 'like', '%' . $likequestoes . '%')
-                            ->from('nivels')
-                            ->orwhereRaw('pquestoes.nivel_id = nivels.id')
-                            ->orwhere('categorias.categoria', 'like', '%' . $likequestoes . '%')
-                            ->from('series')
-                            ->orwhereRaw('pquestoes.serie_id = series.id')
-                            ->orwhere('habilidades.habilidade', 'like', '%' . $likequestoes . '%')
-                            ->from('habilidades')
-                            ->orwhereRaw('pquestoes.habilidade_id = habilidades.id')
-                            ->orwhere('nivels.nivel', 'like', '%' . $likequestoes . '%')*/;
-                    });
-
                 }
                 return $query;
             })
