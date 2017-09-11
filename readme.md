@@ -7,6 +7,7 @@ Para instalar siga os segintes passos:
 -   git clone https://github.com/hildebrandosegundo/api-bancodequestoes.git
 -   cd api-bancodequestoes/laravel
 -   composer install
+-   php artisan serve
 
 
 ## About Laravel

@@ -268,7 +268,4 @@ class Prova extends Model
         return $this->belongsTo('App\Area');
     }
 
-
-
-
 }
