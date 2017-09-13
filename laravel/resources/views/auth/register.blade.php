@@ -66,7 +66,7 @@
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="selectbasic"></label>
                                 <div class="col-md-4">
-                                    <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <select id="type" name="type" class="form-control">
                                         <option value="ESCOLA">ESCOLA</option>
                                         <option value="ADMINISTRADOR">ADMINISTRADOR</option>
                                     </select>
