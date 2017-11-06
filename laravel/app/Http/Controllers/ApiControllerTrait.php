@@ -15,6 +15,8 @@ trait ApiControllerTrait
     {
         $limit = $request->all()['limit'] ?? 15;
         $order = $request->all()['order'] ?? null;
+        $groupby = $request->all()['groupby'] ?? null;
+        $select = $request->all()['select'] ?? null;
 
         if ($order !== null) {
             $order = explode(',', $order);
@@ -29,16 +31,33 @@ trait ApiControllerTrait
             $like = explode(',', $like);
             $like[1] = '%' . $like[1] . '%';
         }
-        $result = $this->model->orderby($order[0], $order[1])
-            ->where(function ($query) use ($like) {
-                if ($like) {
-                    return $query->where($like[0], 'like', $like[1]);
-                }
-                return $query;
-            })
-            ->where($where)
-            ->with($this->relationships())
-            ->paginate($limit);
+        if($groupby){
+            $groupby = explode(',', $groupby);
+            $select = explode(',', $select);
+            $result = $this->model->orderby($order[0], $order[1])
+                ->select($select[0],$select[1])
+                ->where(function ($query) use ($like) {
+                    if ($like) {
+                        return $query->where($like[0], 'like', $like[1]);
+                    }
+                    return $query;
+                })
+                ->groupBy($groupby[0],$groupby[1])
+                ->where($where)
+                ->with($this->relationships())
+                ->paginate($limit);
+        }else {
+            $result = $this->model->orderby($order[0], $order[1])
+                ->where(function ($query) use ($like) {
+                    if ($like) {
+                        return $query->where($like[0], 'like', $like[1]);
+                    }
+                    return $query;
+                })
+                ->where($where)
+                ->with($this->relationships())
+                ->paginate($limit);
+        }
         return response()->json($result);
     }
 

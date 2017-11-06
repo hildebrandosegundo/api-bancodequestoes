@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="780fe240-21cf-4cc0-8613-1f8883a7caf6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017_05_16_125531_create_questoes.php" afterPath="$PROJECT_DIR$/2017_05_16_125531_create_questoes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Pquestao.php" afterPath="$PROJECT_DIR$/laravel/app/Pquestao.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,31 +16,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/public/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1494506522000" expanded="true" signature="0:552" ph="&lt;IfModule mod_rewrite.c&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Habilidade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Habilidade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nivel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Nivel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiControllerTrait.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pquestao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Pquestao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017_05_16_125531_create_questoes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2017_05_16_125531_create_questoes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -57,27 +102,7 @@
         <entry file="file://$PROJECT_DIR$/laravel/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Areas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Api/Areas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForgotPasswordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ForgotPasswordController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,28 +111,8 @@
       <file leaf-file-name="ResetPasswordController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ResetPasswordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
+            <state relative-caret-position="90">
               <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/config/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-518">
-              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -169,11 +174,8 @@
         <option value="$PROJECT_DIR$/laravel/config/auth.php" />
         <option value="$PROJECT_DIR$/laravel/app/Providers/AuthServiceProvider.php" />
         <option value="/Applications/XAMPP/xamppfiles/htdocs/coloquio2017/application/controller/confirmamembro.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Pquestao.php" />
         <option value="$PROJECT_DIR$/laravel/app/Prova.php" />
         <option value="$PROJECT_DIR$/2017_05_16_171118_create_provas.php" />
-        <option value="$PROJECT_DIR$/2017_05_16_125531_create_questoes.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php" />
@@ -183,6 +185,9 @@
         <option value="$PROJECT_DIR$/laravel/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/laravel/routes/api.php" />
         <option value="$PROJECT_DIR$/laravel/.env" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Pquestao.php" />
+        <option value="$PROJECT_DIR$/2017_05_16_125531_create_questoes.php" />
       </list>
     </option>
   </component>
@@ -233,6 +238,12 @@
               <item name="api-bancodequestoes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api-bancodequestoes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-bancodequestoes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="api-bancodequestoes" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +398,10 @@
       <workItem from="1505220421393" duration="1139000" />
       <workItem from="1505306439683" duration="5669000" />
       <workItem from="1505329379451" duration="292000" />
-      <workItem from="1509458415973" duration="2528000" />
+      <workItem from="1509458415973" duration="2837000" />
+      <workItem from="1509705782289" duration="12000" />
+      <workItem from="1509705818365" duration="8473000" />
+      <workItem from="1509967496800" duration="2050000" />
     </task>
     <task id="LOCAL-00001" summary="alteracoes na tabela de questoes">
       <created>1495204536206</created>
@@ -452,16 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1509551667243</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add readme.md">
+      <created>1509551720076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1509551720076</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76296000" />
+    <option name="totallyTimeSpent" value="87140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33602583" sideWeight="0.49187934" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3529887" sideWeight="0.49187934" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,14 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Api/Questoes.php" />
-    <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="165" column="10" lean-forward="false" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2016_06_01_000005_create_oauth_personal_access_clients_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -619,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Pquestao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2017_05_16_171118_create_provas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -633,25 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2017_05_16_125531_create_questoes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Api/Provas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,18 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10950">
           <caret line="742" column="13" lean-forward="false" selection-start-line="742" selection-start-column="13" selection-end-line="742" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ForgotPasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="285">
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
@@ -828,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
+        <state relative-caret-position="660">
           <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding />
         </state>
@@ -836,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/ResetPasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
+        <state relative-caret-position="90">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
@@ -845,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/laravel/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -858,10 +832,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1494506522000" expanded="true" signature="0:552" ph="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Habilidade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Nivel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/ApiControllerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Pquestao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017_05_16_125531_create_questoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>

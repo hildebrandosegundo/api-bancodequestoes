@@ -30,10 +30,12 @@ class CreateQuestoes extends Migration
             $table->integer('serie_id');
             $table->integer('nivel_id');
             $table->integer('area_id');
+            $table->integer('user_id');
             $table->integer('categoria_id');
             $table->integer('habilidade_id');
             $table->string('correta',1);
             $table->string('codigo', 20);
+            $table->string('status', 20);
             $table->timestamps();
         });
     }
