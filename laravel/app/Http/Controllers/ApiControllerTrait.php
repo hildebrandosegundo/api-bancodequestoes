@@ -32,17 +32,17 @@ trait ApiControllerTrait
             $like[1] = '%' . $like[1] . '%';
         }
         if($groupby){
-            $groupby = explode(',', $groupby);
-            $select = explode(',', $select);
+            //$groupby = explode(',', $groupby);
+            //$select = explode(',', $select);
             $result = $this->model->orderby($order[0], $order[1])
-                ->select($select[0],$select[1])
+                ->select($select)
                 ->where(function ($query) use ($like) {
                     if ($like) {
                         return $query->where($like[0], 'like', $like[1]);
                     }
                     return $query;
                 })
-                ->groupBy($groupby[0],$groupby[1])
+                ->groupBy($groupby)
                 ->where($where)
                 ->with($this->relationships())
                 ->paginate($limit);
