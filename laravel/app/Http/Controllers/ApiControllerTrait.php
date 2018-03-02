@@ -17,7 +17,6 @@ trait ApiControllerTrait
         $order = $request->all()['order'] ?? null;
         $groupby = $request->all()['groupby'] ?? null;
         $select = $request->all()['select'] ?? null;
-
         if ($order !== null) {
             $order = explode(',', $order);
         }
@@ -31,6 +30,7 @@ trait ApiControllerTrait
             $like = explode(',', $like);
             $like[1] = '%' . $like[1] . '%';
         }
+
         if($groupby){
             //$groupby = explode(',', $groupby);
             //$select = explode(',', $select);

@@ -10,7 +10,7 @@ class Pquestoes extends Controller
     use \App\Http\Controllers\ApiControllerTrait;
 
     protected $model;
-    protected $reletionships = ['serie', 'nivel', 'area', 'categoria', 'habilidade'];
+    protected $reletionships = ['serie', 'nivel', 'area', 'categoria', 'habilidade', 'user'];
     public function __construct(\App\Pquestao $model)
     {
         $this->model = $model;
